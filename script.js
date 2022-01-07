@@ -1,32 +1,22 @@
-var personName = "Seth"
-console.log(personName);
+/*Very easy
+let x = 34;
 
+let y = 12;
 
-var num1 = 3;
+console.log("The difference between 34 and 12 is " + (x - y))
+//Very easy
 
-var num2 = 5;
+//easy
+let personName = "Seth"
 
-var stringNum1 = "3";
+let personName2 = "Justin"
 
-var stringNum2 = "5";
+console.log()
+*/
 
-var parsNum1 = parseInt(stringNum1);
-var parsNum2 = parseInt(stringNum2);
+let num1 = 34;
 
+if (num1 % 34 === 0){
+    console.log("The number is even");
+}
 
-console.log("This is math: " + parseInt(num1 + num2));
-console.log("This is madness: " + (parsNum1 + parsNum2));
-
-var isTrue = true;
-
-console.log(typeof(isTrue));
-
-
-var num3 = 8;
-
-var num4 = 6;
-
-var num5 = num3 - num4;
-
-console.log("Quick maths 8 minus 6 is " + (num3 - num4));
-console.log("This is a variable" +)
