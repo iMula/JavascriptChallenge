@@ -168,4 +168,27 @@ if (num1 = 34){
     console.log("The number is even")
 }
 
+//how to set up if/else statments
+let num1 = 14;
+
+if (num1 % 2 === 0){
+    console.log("The number is even");
+}else if (num1 % 5 === 0){
+    console.log("divisible by 5")
+}
+else {
+    console.log("This number is odd");
+}
+
+//switches syntax
+switch (num1){
+    case num1 % 5 ===0:
+        console.log("This is multiple of 5")
+        break;
+    case num1 % 2 === 0:
+        console.log("Is Even")
+        break;
+    default:
+        console.log("This is an odd number")
+}
 
