@@ -63,50 +63,46 @@ divide();
 
 
 ///VERY HARD CHALLENGE
-
+//prompt to user
 var num1 = Number(prompt("Choose a number"))
 var operator = prompt("Choose +, -, *, ?")
 var num2 = Number(prompt("Choose a munber"))
 
+//directing to operator
+if (operator === "+"){
+    add()
+}else if (operator === "-"){
+    subtract()
+}else if (operator === "*"){
+    multiply()
+}else if (operator ==="/"){
+    divide()
+}
 
-
+//Math functions
 function add(){
-    var num1 = 8;
-    var num2 = 2;
     var answer = num1 + num2;
     console.log(num1 + " + " + num2 + " = " + answer);
 }
-add();
 
 
 function subtract(){
-    var num1 = 8;
-    var num2 = 2;
     var answer = num1 - num2;
     console.log(num1 + " - " + num2 + " = " + answer);
 }
-subtract();
 
 
 function multiply(){
-    var num1 = 8;
-    var num2 = 2;
     var answer = num1 * num2;
     console.log(num1 + " * " + num2 + " = " + answer);
 }
-multiply();
 
 
 function divide(){
-    var num1 = 8;
-    var num2 = 2;
     var answer = num1 / num2;
     console.log(num1 + " / " + num2 + " = " + answer);
 }
-divide();
 
 
 
-var num1 = prompt("Choose a number")
-var operator = prompt("Choose +, -, *, ?")
-var num2 = prompt("Choose a munber")
+
