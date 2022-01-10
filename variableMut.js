@@ -192,3 +192,106 @@ switch (num1){
         console.log("This is an odd number")
 }
 
+//var vs let vs const Variables lesson///
+
+///what is scope?//
+//scope is the limit of whatever parameters you set//
+
+///const means constant and the variable cannot change. Use this to prevent errors later down the line from someone else changing your code
+const num1 = 10;
+console.log(num1);
+
+num1 = 20;
+
+//let vs var
+// let is what we call blocked scope vs function scoped. let was introduced ES6, so was const
+
+// global variable vs local
+
+let spiderman = "Tobey"; //example of global variable (open variable)
+
+function chgSpiderName () {
+    spiderman = "Tom";
+
+    let bestMJ = "Emma";
+    console.log(bestMJ);
+}
+
+chgSpiderName();
+console.log(spiderman);
+//console.log(bestMJ);
+
+//1) calls the function
+//2) updates the variable
+//3) creates the variable bestMJ and assigns it a value
+//4) prints the variable MJ
+//5) function is over, so then it prints the variable spiderman
+
+let spiderman = "Tobey"; //example of global variable (open variable)
+
+function chgSpiderName () {
+    spiderman = "Tom";
+
+    let bestMJ = "Emma";
+    
+    function chgMjName(){
+        bestMJ = "Zendaya";
+        let sideKick = "Ned";
+        console.log(bestMJ);
+    }
+    chgMjName();
+
+    //console.log(sideKick);
+
+    //if statments are "blocked" scoped
+    if (spiderman = "Tom") {
+        var congrats = "Thanks for choosing the best Spiderman";
+        //var is function scoped, if i used "let" is would be blocked scope
+    }
+    //still prints out the congrats message
+    console.log(congrats);
+}
+
+//This function only exists within ChangeSpiderManName chgMjName();
+
+chgSpiderName();
+//console.log(spiderman);
+//console.log(bestMJ);
+
+
+///function with parameters
+
+num1 = 10;
+num2 = 20;
+
+function conCat(x, y){
+
+    return String(x) + String(y);
+}
+
+console.log(conCat(num1,num2));
+
+//function without parmeters
+function floss(){
+    return "you should floss everyday"
+}
+console.log(floss);
+
+//function inside a function/ calculator
+function calc(nu1,num2, operator){
+
+    if (operator == "+"){
+        return add();
+    }else if (operator == "-"){
+        return subtract()
+    }
+
+    function add (){
+return num1 + num2;
+    }
+
+    function subtract (){
+        return num1 + num2;
+    }
+}
+ console.log(calc(10,5,"+"));
