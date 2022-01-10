@@ -1,4 +1,4 @@
-//Very easy
+//VERY EASY
 let x = 34;
 
 let y = 12;
@@ -6,14 +6,14 @@ let y = 12;
 console.log("The difference between 34 and 12 is " + (x - y))
 //Very easy
 
-//easy
+//EASY
 let personName1 = "Seth"
 let personName2 = "Justin"
 
 console.log(`The name ${personName2} is longer than the name ${personName1} by 2 characters`)
 
 
-//medium
+//MEDIUM
 let userInput = prompt (`Type a word. Ex: "BASKETBALL", "Basketball", "basketball" `)
 
 if (userInput === userInput.toUpperCase()){
@@ -24,7 +24,7 @@ if (userInput === userInput.toUpperCase()){
 console.log("You are Talking Normal")
 }
 
-//hard
+//HARD CHALLENGE
 //Addition
 function add(){
     var num1 = 8;
