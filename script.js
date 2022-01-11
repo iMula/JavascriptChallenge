@@ -11,7 +11,7 @@ let personName1 = "Seth"
 let personName2 = "Justin"
 
 console.log(`The name ${personName2} is longer than the name ${personName1} by 2 characters`)
-
+//EASY
 
 //MEDIUM
 let userInput = prompt (`Type a word. Ex: "BASKETBALL", "Basketball", "basketball" `)
@@ -23,6 +23,7 @@ if (userInput === userInput.toUpperCase()){
 }else { 
 console.log("You are Talking Normal")
 }
+//MEDIUM
 
 //HARD CHALLENGE
 //Addition
@@ -60,6 +61,7 @@ function divide(){
     console.log(num1 + " / " + num2 + " = " + answer);
 }
 divide();
+///HARD CHALLENGE
 
 
 ///VERY HARD CHALLENGE
@@ -102,7 +104,5 @@ function divide(){
     var answer = num1 / num2;
     console.log(num1 + " / " + num2 + " = " + answer);
 }
-
-
-
+//VERY HARD CHALLENGE
 

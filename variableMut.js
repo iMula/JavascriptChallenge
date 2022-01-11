@@ -297,3 +297,13 @@ return num1 + num2;
     }
 }
  console.log(calc(10,5,"+"));
+
+
+ ////Arrays//
+ var numbers = [19, 17, 3, 7, 21, 23, 6]   ///an array of numbers
+
+ var names = ["Seth", "Zendaya", "Daniel", "Chioma", "Iman"]  ///array with names
+
+ var games = new Array("MW2", "Overwatch", "2K16", "Sims")
+
+ console.log(games)
