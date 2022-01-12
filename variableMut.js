@@ -304,6 +304,44 @@ return num1 + num2;
 
  var names = ["Seth", "Zendaya", "Daniel", "Chioma", "Iman"]  ///array with names
 
- var games = new Array("MW2", "Overwatch", "2K16", "Sims")
+ var games = new Array("MW2", "Overwatch", "2K16", "Sims", "Crash Bandicoot")
 
- console.log(games)
+ var anime = ["Re:Zero", "Demon Slayer", "Naruto", "Death Note", "Black Clover"]
+
+ console.log(names)
+ console.log(names.join(anime)); ///joining anime and names as one big string
+ 
+ /*names.unshift("Seth") ///adds element to the front of array
+ names.pop()///always removes the last person in array
+ names.shift() ///removes first element in array
+
+ names.indexOf("Seth")///checks if element is in array
+
+ numbers.push(13) ///.push adds your last data type (13) to end of array
+*/
+ //grabbing index of variable///
+ console.log(numbers[3])  ///array counts 0,1,2,3 ("3" would be "7" ^^)
+
+ 
+ var myPod = ["Edwin", "Emmanuel", "Bria", "Seth", "Teresa", "Ninoshka"]
+ 
+ var checkNames = myPod.indexOf("Seth")
+
+ if (checkNames !== -1){
+     console.log(`Seth is the pod leader`)
+ }else {
+     console.log(`Seth is not my POD leader`)
+ }
+
+
+ //var length = myPod.length
+ 
+ //console.log(`${myPod[3]} has ${length} people in his pod`)
+
+ //mypod[0] = "Kobe"
+
+ //mypod[myPod.length] = "Edwin"
+
+
+ 
+
